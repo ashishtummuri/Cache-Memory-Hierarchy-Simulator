@@ -1,0 +1,112 @@
+===== Simulator configuration =====
+BLOCKSIZE:  32
+L1_SIZE:    1024
+L1_ASSOC:   2
+L2_SIZE:    8192
+L2_ASSOC:   4
+PREF_N:     0
+PREF_M:     0
+trace_file: vortex_trace.txt
+
+===== L1 contents =====
+set      0:   3d81a6 D  200850 D
+set      1:   3d81a6 D  20085c  
+set      2:   3d81a2    2006fc  
+set      3:   2006fc    3d81a5  
+set      4:   3d81a6 D  200102  
+set      5:   3d81a6 D  2006fc D
+set      6:   200191    3d81a6 D
+set      7:   200850    3d81a6 D
+set      8:   200102 D  3d81a5 D
+set      9:   3d81a5 D  2006c8  
+set     10:   2006c8    3d81a6 D
+set     11:   200103 D  20087b D
+set     12:   2006b7    200103  
+set     13:   2006b7    20022d  
+set     14:   3d81a5 D  2002e1 D
+set     15:   3d81a5 D  3d819b  
+
+===== L2 contents =====
+set      0:    80217     80214     801ae     80040 D
+set      1:    80217     80214     801ae     80041  
+set      2:    801bf D   801c0 D   80214     801c1  
+set      3:    801bf     801c1     800b3     80040 D
+set      4:    801c0     80214     801bc     801a5  
+set      5:    801bf D   801c0 D   80214     800e6  
+set      6:    80213     800e6     801c7     f606a D
+set      7:    80214     802f4 D   801c9     f6069 D
+set      8:    802f4 D   801c9     f6069 D   80065  
+set      9:    801b2 D   801b3     800e6 D   802f4 D
+set     10:    801b2 D   801b3 D   801ac     801bc  
+set     11:    800b7     801b6     801bc     80065 D
+set     12:    801b2 D   801c1     801b6     802f4 D
+set     13:    801ac     80065 D   801b3     f6069 D
+set     14:    80065 D   f6069 D   801ac     801bc  
+set     15:    80064     802ee     80065 D   801db  
+set     16:    802ee     80064     802f4 D   f6069 D
+set     17:    f6069 D   8020a     80064 D   802f4 D
+set     18:    f6069 D   8020a     80064     8008c D
+set     19:    f6069 D   80064     8020a     8008c D
+set     20:    f6069 D   80064     8008c D   802f4  
+set     21:    801a9     80064     8008c D   801b3  
+set     22:    80064     801a9     8008c D   801a5  
+set     23:    80064     80174     802ea D   80078 D
+set     24:    f6069 D   80064     8020a     802f4  
+set     25:    f6069 D   801a7     802f4     80251 D
+set     26:    f6069 D   80040     8008b     801ab  
+set     27:    80040     8008b     801c3     f6069 D
+set     28:    8008b     f6069 D   80145     801c3  
+set     29:    8008b     f6069 D   80145     802f4  
+set     30:    800b8     f6069 D   8008b     802f7  
+set     31:    f6069 D   8008b     801ab     801e1  
+set     32:    f6069 D   800b8 D   801ab     f6068 D
+set     33:    f6069 D   8001c     8020c D   80133  
+set     34:    8001c     f6069 D   f6068     8020c  
+set     35:    f6069 D   80040 D   f6068     802f1 D
+set     36:    f6069 D   80040     802f1 D   802e7  
+set     37:    f6069 D   802f1 D   802f5     802e7 D
+set     38:    f6069 D   80064     800b8 D   802f1 D
+set     39:    f6069 D   802f1 D   802e7 D   801c3  
+set     40:    80040 D   80064     f6069 D   802f1 D
+set     41:    80040 D   80064     802f1 D   f6068 D
+set     42:    f6069 D   80064     801a5     80175  
+set     43:    f6069 D   8021b D   801a5     802f1 D
+set     44:    f6069 D   802f1 D   802e7 D   80175  
+set     45:    f6069 D   8008b     802f1 D   802e7 D
+set     46:    f6069 D   80040     802f1 D   f6068 D
+set     47:    8008b     80146     802f1     802e7 D
+set     48:    f6069 D   802f3     80078 D   802f1  
+set     49:    802f6     f6069 D   802f3     80040  
+set     50:    8021a     f6069 D   802f6     80078 D
+set     51:    f6069 D   f6068 D   80270     8008b  
+set     52:    80217     802f3 D   f6069 D   f6068 D
+set     53:    80217 D   802f3 D   80077 D   801c2  
+set     54:    8021e D   802f3 D   801c2     f6069 D
+set     55:    802f3 D   f6069 D   f6068 D   80146  
+set     56:    801ac D   801c9     801a6     f6069 D
+set     57:    801c9 D   80040     f6069 D   802f3  
+set     58:    80040     800b1     802f3 D   f6069 D
+set     59:    8021e D   801ad D   80040 D   800b2  
+set     60:    801ad     80040 D   8021e D   801c3  
+set     61:    801ad     80040 D   f6069 D   f6068 D
+set     62:    800b2     f6069 D   80040 D   801ad  
+set     63:    f6066 D   80213     801ad     800b2  
+
+===== Measurements =====
+a. L1 reads:                   70871
+b. L1 read misses:             9373
+c. L1 writes:                  29129
+d. L1 write misses:            4855
+e. L1 miss rate:               0.1423
+f. L1 writebacks:              6508
+g. L1 prefetches:              0
+h. L2 reads (demand):          14228
+i. L2 read misses (demand):    2144
+j. L2 reads (prefetch):        0
+k. L2 read misses (prefetch):  0
+l. L2 writes:                  6508
+m. L2 write misses:            2
+n. L2 miss rate:               0.1507
+o. L2 writebacks:              1039
+p. L2 prefetches:              0
+q. memory traffic:             3185

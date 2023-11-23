@@ -1,0 +1,31 @@
+===== Simulator configuration =====
+BLOCKSIZE:  16
+L1_SIZE:    1024
+L1_ASSOC:   64
+L2_SIZE:    0
+L2_ASSOC:   0
+PREF_N:     0
+PREF_M:     0
+trace_file: gcc_trace.txt
+
+===== L1 contents =====
+set      0:  4003822 D 4000136   4000135   4000134   4000133   4000132   4000131   4000130   400012f   400012e   400012d   400012c   400012b   40051a0 D 4004464 D 40051a4 D 4003f1f D 40051a1 D 4004824   4004295   4002f4a   40031e8 D 40031e9 D 4003147   4003825 D 400358e   4003824   7b03390 D 40051a3 D 4002a62 D 40051a2 D 4003140   4003144   4001f4a   4001f29   4002f49 D 400519f D 40031f8 D 4003148   4001f4e   4001f2d   4003577   4002f71 D 4002763   400275d   40051c9 D 400314b   40051ca D 4001f52   4001f30   4003e58   4003559   4003587 D 400275c   40051c8 D 4003158 D 400519e D 400275f   4002758   4001f51   400314a   4002762   40051ab D 40051ac D
+
+===== Measurements =====
+a. L1 reads:                   63640
+b. L1 read misses:             6512
+c. L1 writes:                  36360
+d. L1 write misses:            7658
+e. L1 miss rate:               0.1417
+f. L1 writebacks:              8330
+g. L1 prefetches:              0
+h. L2 reads (demand):          0
+i. L2 read misses (demand):    0
+j. L2 reads (prefetch):        0
+k. L2 read misses (prefetch):  0
+l. L2 writes:                  0
+m. L2 write misses:            0
+n. L2 miss rate:               0.0000
+o. L2 writebacks:              0
+p. L2 prefetches:              0
+q. memory traffic:             22500

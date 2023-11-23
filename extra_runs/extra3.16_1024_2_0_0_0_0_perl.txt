@@ -1,0 +1,62 @@
+===== Simulator configuration =====
+BLOCKSIZE:  16
+L1_SIZE:    1024
+L1_ASSOC:   2
+L2_SIZE:    0
+L2_ASSOC:   0
+PREF_N:     0
+PREF_M:     0
+trace_file: perl_trace.txt
+
+===== L1 contents =====
+set      0:   2000f6    2000da  
+set      1:   2000df D  2000f6  
+set      2:   2000f6    200168 D
+set      3:   20015b    200163  
+set      4:   200163 D  200168 D
+set      5:   2000f6    20006a D
+set      6:   200160    2000f6  
+set      7:   200160    3d819f D
+set      8:   2000de    2000f6  
+set      9:   2000f5    2000e4 D
+set     10:   2000b0 D  2000de  
+set     11:   200011    2000de  
+set     12:   200011    2000de  
+set     13:   2000f5    2000f4  
+set     14:   2000f4    3d819f D
+set     15:   2000c9    200168 D
+set     16:   2000f6    200168 D
+set     17:   20009d D  2000f4  
+set     18:   2000de D  2000f4  
+set     19:   2000f2    20015a D
+set     20:   2000f4    200063  
+set     21:   20009d    200099  
+set     22:   200063    2000f4  
+set     23:   2000f4 D  200099 D
+set     24:   2000f5    3d819e D
+set     25:   2000f5 D  200167 D
+set     26:   2000f5    2000de  
+set     27:   2000de    3d819d  
+set     28:   3d819d    2000f4  
+set     29:   2000f4    200167 D
+set     30:   2000f4    20015a D
+set     31:   200167 D  2000e9  
+
+===== Measurements =====
+a. L1 reads:                   70107
+b. L1 read misses:             16426
+c. L1 writes:                  29893
+d. L1 write misses:            5930
+e. L1 miss rate:               0.2236
+f. L1 writebacks:              8252
+g. L1 prefetches:              0
+h. L2 reads (demand):          0
+i. L2 read misses (demand):    0
+j. L2 reads (prefetch):        0
+k. L2 read misses (prefetch):  0
+l. L2 writes:                  0
+m. L2 write misses:            0
+n. L2 miss rate:               0.0000
+o. L2 writebacks:              0
+p. L2 prefetches:              0
+q. memory traffic:             30608

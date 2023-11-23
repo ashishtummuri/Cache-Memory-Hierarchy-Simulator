@@ -1,0 +1,72 @@
+===== Simulator configuration =====
+BLOCKSIZE:  64
+L1_SIZE:    8192
+L1_ASSOC:   4
+L2_SIZE:    0
+L2_ASSOC:   0
+PREF_N:     8
+PREF_M:     4
+trace_file: compress_trace.txt
+
+===== L1 contents =====
+set      0:    81cb2 D   81cb3 D   81cb4 D   81cb5 D
+set      1:    81cb2 D   81cb3 D   81cb4 D   81cb5 D
+set      2:    81cb2 D   81cb3 D   81cb4 D   81cb5 D
+set      3:    81cb2 D   81cb3 D   81cb4 D   81cb5 D
+set      4:    81cb2 D   81cb3 D   81cb4 D   81cb5 D
+set      5:    81cb2 D   81cb3 D   81cb4 D   81cb5 D
+set      6:    81cb2 D   81cb3 D   81cb4 D   81cb5 D
+set      7:    81cb2 D   81cb3 D   81cb4 D   81cb5 D
+set      8:    81cb2 D   81cb3 D   81cb4 D   81cb5 D
+set      9:    81cb2 D   81cb3 D   81cb4 D   81cb5 D
+set     10:    81cb2 D   81cb3 D   81cb4 D   81cb5 D
+set     11:    81cb2 D   81cb3 D   81cb4 D   81cb5 D
+set     12:    81cb2 D   81cb3 D   81cb4 D   81cb5 D
+set     13:    81cb2 D   81cb3 D   81cb4 D   81cb5 D
+set     14:    81cb2 D   81cb3 D   81cb4 D   81cb5 D
+set     15:    81cb2 D   81cb3 D   81cb4 D   81cb5 D
+set     16:    81cb2 D   81cb3 D   81cb4 D   81cb5 D
+set     17:    81cb2 D   81cb3 D   81cb4 D   81cb5 D
+set     18:    81cb2 D   81cb3 D   81cb4 D   81cb5 D
+set     19:    81cb2 D   81cb3 D   81cb4 D   81cb5 D
+set     20:    81cb2 D   81cb3 D   81cb4 D   81cb5 D
+set     21:    81cb2 D   81cb3 D   81cb4 D   81cb5 D
+set     22:    81cb2 D   81cb3 D   81cb4 D   81cb5 D
+set     23:    81cb2 D   81cb3 D   81cb4 D   81cb5 D
+set     24:    81cb1 D   81cb2 D   81cb3 D   81cb4 D
+set     25:    81cb1 D   81cb2 D   81cb3 D   81cb4 D
+set     26:    81cb1 D   81cb2 D   81cb3 D   81cb4 D
+set     27:    81cb1 D   81cb2 D   81cb3 D   81cb4 D
+set     28:    81cb1 D   81cb2 D   81cb3 D   81cb4 D
+set     29:    81cb1 D   81cb2 D   81cb3 D   81cb4 D
+set     30:    81cb1 D   81cb2 D   81cb3 D   81cb4 D
+set     31:    81cb1 D   81cb2 D   81cb3 D   81cb4 D
+
+===== Stream Buffer(s) contents =====
+ 1039639  103963a  103963b  103963c 
+ 103963b  103963c  103963d  103963e 
+ 103963c  103963d  103963e  103963f 
+ 103963d  103963e  103963f  1039640 
+ 103963e  103963f  1039640  1039641 
+ 103963f  1039640  1039641  1039642 
+ 1039640  1039641  1039642  1039643 
+ 1039641  1039642  1039643  1039644 
+
+===== Measurements =====
+a. L1 reads:                   51960
+b. L1 read misses:             5
+c. L1 writes:                  48040
+d. L1 write misses:            1383
+e. L1 miss rate:               0.0139
+f. L1 writebacks:              4523
+g. L1 prefetches:              11408
+h. L2 reads (demand):          0
+i. L2 read misses (demand):    0
+j. L2 reads (prefetch):        0
+k. L2 read misses (prefetch):  0
+l. L2 writes:                  0
+m. L2 write misses:            0
+n. L2 miss rate:               0.0000
+o. L2 writebacks:              0
+p. L2 prefetches:              0
+q. memory traffic:             17319
